@@ -1,0 +1,17 @@
+{
+  "name": "tinytouches",
+  "version": "1.0.0",
+  "description": "Small UX Touches makes you say 'noice'",
+  "main": "index.js",
+  "author": "Corizzle",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss styles.css -o compiled.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "postcss": "^8.2.4",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.2"
+  }
+}
